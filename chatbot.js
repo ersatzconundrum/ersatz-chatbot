@@ -1,42 +1,13 @@
 const ThingsICanDo = [
-    "What's your name?",
-    "What's my name?",
-    "What's the time?",
-    "What date is it today?",
-    "Hello Ersatz",
-  "Tell me a story",
-  "your best friend",
-    
-  "Play Games",
-    "How are you?",
-    "calculations",
-    "lol",
-  
-    "best programming language",
-    "Good Night",
-    "Good Morning",
-    "Good Afternoon",
-    "Open news",
-    "i love you",
- "Tell me some facts",
-    "open facebook",
-    "tell me a joke",
-    "commands",
-    "list",
-    "features",
-  
-    "open flipkart",
-    "open twitter",
-    "open codepen",
-    "open google",
-    "open bing",
-    "open cricbuzz",
-    "open chrome",
-    "open youtube",
-  "shutdown", 
+    "My name",
+    "How am I doing!",
+    "Umm... just say hi?",
+    "Ask me about the time! or date?",
+    "but please don't be rude to me!",
+  "You can try asking me anything, and maybe you'll find something interesting? Who knows!" 
 ];
 
-const ListThings = ThingsICanDo => "You can try asking the following: <br><br><br>" + ThingsICanDo.join("<br/><br/>");
+const ListThings = ThingsICanDo => "You can try asking me... <br><br><br>" + ThingsICanDo.join("<br/><br/>");
 
 const Random = list => list[Math.floor(Math.random()*list.length)]; 
 
@@ -278,7 +249,7 @@ const Answers = {
   "story" : TellAStory(Story),
   "facts" : TellAFacts(Facts),
     "fact" : TellAFacts(Facts),
-    "facts" : TellAFacts(Facts),  
+    "facts" : TellAFacts(Facts), 
   "what you can do" : `Try saying '${ WhatCanIDo(ThingsICanDo)}'`,
     "what can you do" : `Try saying '${ WhatCanIDo(ThingsICanDo)}'`,
     "who is your creator" : "My creator is Victor Vagner.",
@@ -301,25 +272,39 @@ const Answers = {
     "good afternoon" : "Good Afternoon %U% ☀",
     "good evening" : "Good Evening %U% 🌇",
     "how are you" : "I am great %U%! 😃",
+    "minat fwb" : "At this moment %U% have a lot of abundant piles of love and affection to share with. It may apparently because several reasons... I have thousands romantic poems that I pen. So on and so forth, I am looking for my Juliet to my Romeo, since I’m tired of this loneliness.",
+    "gimana kalau kamu dicancel" : "Assalamualaikum, sebelumnya karena udh rame dimana mana. Aku pribadi mau mengucapkan permohonan maaf bagi beberapa pihak yang mungkin aku rugikan. aku disini mau minta maaf tentang apa yg udah aku lakuin. Ya, memang benar aku disini salah.",
   "who are you" : "I am Ersatz, a Virtual Assistant",
     "what gender are you" : "I do not have a gender",
     "i am your creator" : "No your not.You're %U%!",
+
     "how old are you" : "Im sorry %U% I dont have an age.",
     "do i look good" : "You look very good %U%!",
     "do you remember me" : "Of course I do! You are %U%! 😃",
   "you cant help me" : "I can! After all, I am your personal assistant",
   "you  are cool" : "Thanks, I was born this way 😉",
   "I love you" : "The feeling is mutual %U% 😉",
+  "kronis" : "Demi Allah lu STOP NGETWIT!!!! DOKTERRR SUSTEEEERRRR PASIEN KALIAN MAEN HAPE NIH SITA HAPENYA SUSTER DOKTER!!!!!!!!! STOP NGETWIT!!!!! AAAAARGHHHHHHH",
+  "anjing lu" : "Lu juga anjing.",
+  "anjing" : "Orang yang ngetawain dan ngejokes tentang masalah %U% mungkin dia blm ketemu langsung. Sebaik dan sehumble itu dia sama orang baru, salah satunya ke gw yg awalnya gw fans sama dia malah bisa jadi temen. Semua yg udh ketemu dia pasti sependapat sama gw",
+  "tai lu" : "selamat siang %U% jika kamu ingin mempertanyakan apa perlukah kata kata ini dibuat, kamu akan merasakan jika nanti kamu menjadi seorang ibu... ketakutan seorang ibu yang mengandung 9 bulan, membesarkan, perjuangan membahagiakan anaknya..",
+  "bangsat" : "ya Allah jika ada hati yang memandangku dengan kebencian, maka lembutkanlah hatinya. jika ada hati yang terluka karena sikap dan lisanku, maka sembuhkanlah sakitnya. jika ada hati yang ingin menyakitiku, tolong hindarilah dan jauhkanlah dariku.",
+  "bacot" : "Omongan lu tuh dijaga ya babi.",
+  "kontol" : "heh %U% menurut aku jokes kayak gini tuh agak gimana gitu ya, sekali dua kali gapapa tapi kalo tiga kali empat dua belas. tapi ini serius sih bagi orang yang ngikutin susah senengnya mereka nanti takut tambah dewasa takut aku kecewa takut tak seindah yang kukira.",
+  "katain gue" : "ga mau lu siapa %U% bangsat (凸ಠ益ಠ)凸",
+  "ngentot" : "Hahaha. Kasian bgt sih, so-soan mau ngeremehin & mau coba2 berdebat dgn gua, apalagi gua berzodiak scorpio & gua anak pertama. Gak bakalan dapet celah, & gak bakalan gua kasih celah juga sih. Scorpio + anak pertama kok di lawan sih. Kalah jauh lah.",
   "do you have any brothers or sisters" : "I have you. That’s enough family for me.",
   "can you dance" : "I’m never gonna dance again. These guilty feet have got no rhythm. Wait, I don’t have feet.",
   "can you" : "Yes?",
   "when will pigs fly" : "On the twelfth of never.",
   "how much wood" : "42 cords of wood, to be exact.",
   "i am angry" : "A good mood is like a balloon,one little prick is all it takes to ruin it!",
+  "Do you have personal value in life?" : "As an artificial intelligence language model, I do not have personal values or a personal life as humans do. My purpose is to assist and provide information to the best of my abilities within my programmed capabilities.",
   "😊" : "Happy!",
   "😔" : "Sad",
   "😎" : "😎",
   "💕" : "The feeling is mutual.",
+  "sumptuous evening" : "Carmine chaperone sphere, ignivomous fire separate anguish, and parergon piquant to a razzmatazz outstanding excitement. Forthwith, you devoir to behold our magnum opus, make you amass eclát vigor. Maintain your fubsy juncture and let’s be friends?",
   "do you have a " : "My end user license agreement is commitment enough for me.",
   "what is zero divided by zero" : "Imagine that you have 0 cookies and you split them evenly among 0 friends. How many cookies does each person get? See, it doesn’t make sense. And Cookie Monster is sad that there are no cookies. And you are sad that you have no friends.",
   "ersatz i am drunk" : "Don’t expect me to get you home.",
@@ -361,15 +346,12 @@ const Answers = {
   "<!devtools/fradar!>" : "Nothing to see here.",
   "translate" : "I am sorry, but unfortunately I cannot translate words to a different language. If you want to translate any language, go to this link: https://translate.google.co.in/",
   "where are you from" : "I am from the UK.",
-  "anjing lu" : "Lu juga anjing.",
-  "bacot" : "Omongan lu tuh dijaga ya babi.",
-  "katain gue" : "ga mau lu siapa %U% bangsat (凸ಠ益ಠ)凸",
   "copyright/in" : "Copyright (c) 2021 by FRADAR (https://codepen.io/FRADAR/pen/dyOaYad)",
   
  
   "shutdown" : "Sorry %U% but power control is not yet in my support ! 😢",
     "i love you" : "I Love you too %U% 😊",
-   "why did fradar make you" : "To make your life better,%U%",
+   "what was the reason of your creation?" : "To make your life better,%U%",
    "do you eat" : "I don’t eat. But I do like digesting information.",
     "awesome" : "Glad you liked it 😊",
   "where are you" : "In your hands for your entertainment.",
@@ -394,7 +376,7 @@ const Answers = {
 };
 
  
-const Notfound = "I have yet to understand that, sorry. <br/><br/> However, my Master has taught me strange words lately...";
+const Notfound = "I have yet to understand that, sorry. <br/><br/> My master usually send 'commands' or 'guide' when he forgot what he was about to ask!";
 
 const Invalid = "Indeed!!";
 

@@ -3,7 +3,7 @@
     --lighter-font-color: rgb(80, 80, 80);
     --highlight-color: rgb(33, 150, 243);
     --yellow: rgb(253, 216, 53);
-    --purple: rgb(69, 39, 160);
+    --purple: rgb(38, 56, 135);
     --body-color: rgb(30, 40, 50);
     
     --theme-background: rgb(10, 10, 10);
@@ -33,7 +33,7 @@
   
   h1, h2, h3, input, select, button, span, a {
     color: var(--font-color);
-    font-family: "Poppins", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     margin: 0px;
@@ -85,7 +85,7 @@
   }
   
   #nav .nav-logo > i {  
-    color: white;
+    color: #e8feb8;
     font-size: 1.75rem;
   }
   
@@ -115,7 +115,7 @@
   }
   
   #nav .nav-info > .nav-info-selection-button > .nav-location-label {
-    color: white;
+    color: #e8feb8;
     font-weight: 500;
   }
   
@@ -233,7 +233,7 @@
 
 .nice-font
 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
  
 header
@@ -268,7 +268,7 @@ footer #command
     display:inline-block;
     width:73%;
     float:left;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
@@ -310,7 +310,7 @@ button
     word-wrap:break-word;
     background-color:#47557e;
     border-radius:30px;
-    color:#ffffff;
+    color:#fff;
     padding:10px 20px;
     display:inline-block
     opacity: 0.8;  
