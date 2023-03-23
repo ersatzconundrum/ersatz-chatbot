@@ -1,9 +1,12 @@
 const ThingsICanDo = [
     "My name",
     "How am I doing!",
+    "Timetable? Concept explanations? You can ask that too.",
     "Umm... just say hi?",
     "Ask me about the time! or date?",
     "but please don't be rude to me!",
+    "I'm not very intelligent... but I'm doing my best 🥺",
+    "Hey, this is why you're joining this class. To train me!",
   "You can try asking me anything, and maybe you'll find something interesting? Who knows!" 
 ];
 
@@ -16,6 +19,8 @@ const WhatCanIDo = ThingsICanDo => Random(ThingsICanDo);
 
 const Links = {
     "facebook" : "https://www.facebook.com",
+    "toji31" : "https://www.meme-arsenal.com/memes/88df19dffcb6f901a044058c5c8da6bb.jpg",
+    "website" : "https://ersatzconundrum.tumblr.com",
     "google" : "https://www.google.in",
     "twitter" : "https://www.twitter.com",
     "youtube" : "https://www.youtube.com",
@@ -252,13 +257,25 @@ const Answers = {
     "facts" : TellAFacts(Facts), 
   "what you can do" : `Try saying '${ WhatCanIDo(ThingsICanDo)}'`,
     "what can you do" : `Try saying '${ WhatCanIDo(ThingsICanDo)}'`,
-    "who is your creator" : "My creator is Victor Vagner.",
+    "who is your creator" : "My creator is Professor Victor Vagner.",
     "meaning of life" : "The meaning of life is 42.",
     "hello" : "Hello %U%. How can I help? ",
   "hey ersatz" : "Hey %U%. How can I help? ",
   "hey bro" : "Hey  %U%. How can I help? ",
     "hi" : "Hi %U%",
     "hola" : "Hola amigo 😁",
+    "asu" : "jangan jahat jahat kalo ngomong aku tuh sedih:(",
+    "disclaimer" : "This is a work of fiction. Names, characters, places and incidents either are products of the author’s imagination or are used fictitiously. Any resemblance to actual events or locales or persons, living or dead, is entirely coincidental.",
+    
+    "concept explanation" : "ETH Zurich summer program appears like any other. But there is a secret whispered among those in the know that there is more to it than meets the eye.<br><br>The whispered rumor spreads like wildfire through the VAT lab, leaving in its wake a trail of mystery and intrigue. What could it be? A forbidden experiment, shrouded in secrecy? A serial murder, waiting to be uncovered? A conspiracy worth unfolding?<br><br>As you take your place among the participants of this program, you sense that everything is like a piece of puzzle just waiting to be assembled. Each day, another piece falls into place, revealing a tantalizing glimpse of the truth that lies beneath the surface. Can you spot the devil amongst you? Can you stop the disaster before it happens? Or perhaps, as the shadows grow longer and the night grows deeper, the devil was always YOU?<br><br>Join us this summer and unlock the secrets that lie within. But be warned - this is no ordinary course. It will test your mind, your spirit, and your very soul. Will you emerge unscathed, or will the puzzle consume you? The choice is yours.",
+    "timetable" : "the website is deployed on March 23, and we will have a giveaway on friday!! Saturday will be the day you'll register to our program. ERSATZ can't wait to see you on Sunday!!",
+    "how to join" : "In short, prepare an account and ONLY follow ErsatzConundrum. Then we will make the registration form available for you to fill out, and we'll begin the selection process shortly. I can't wait to see you!!",
+    "how do I join" : "Create an account and just follow ErsatzConundrum. We'll then post the registration form and start the selection process. Looking forward to seeing you!",
+    "caretaker" : "My master, Professor Victor Vagner is the instructor of this summer programme. As for the others... Dunno. Maybe they're lurking amongst you as a fellow students.",
+    "caretakers" : "My master, Professor Victor Vagner is the instructor of this summer programme. As for the others... Dunno. Maybe they're lurking amongst you as a fellow students.",
+    "bahasa bayi" : "Goo goo gaa gaa waaaaah owaaaahhhhhh. There you have it, %U%",
+    "baby language" : "Goo goo gaa gaa waaaaah owaaaahhhhhh. There you have it, %U%",
+
     "my name" : "Your name is %U% &#10024;",
     "your name" : "My name is Ersatz &#10024;",
     "i am sad" : "I'm here for you %U%",
@@ -273,7 +290,7 @@ const Answers = {
     "good evening" : "Good Evening %U% 🌇",
     "how are you" : "I am great %U%! 😃",
     "minat fwb" : "At this moment %U% have a lot of abundant piles of love and affection to share with. It may apparently because several reasons... I have thousands romantic poems that I pen. So on and so forth, I am looking for my Juliet to my Romeo, since I’m tired of this loneliness.",
-    "gimana kalau kamu dicancel" : "Assalamualaikum, sebelumnya karena udh rame dimana mana. Aku pribadi mau mengucapkan permohonan maaf bagi beberapa pihak yang mungkin aku rugikan. aku disini mau minta maaf tentang apa yg udah aku lakuin. Ya, memang benar aku disini salah.",
+    "dicancel" : "Assalamualaikum, sebelumnya karena udh rame dimana mana. Aku pribadi mau mengucapkan permohonan maaf bagi beberapa pihak yang mungkin aku rugikan. aku disini mau minta maaf tentang apa yg udah aku lakuin. Ya, memang benar aku disini salah.",
   "who are you" : "I am Ersatz, a Virtual Assistant",
     "what gender are you" : "I do not have a gender",
     "i am your creator" : "No your not.You're %U%!",
@@ -284,8 +301,8 @@ const Answers = {
   "you cant help me" : "I can! After all, I am your personal assistant",
   "you  are cool" : "Thanks, I was born this way 😉",
   "I love you" : "The feeling is mutual %U% 😉",
+  
   "kronis" : "Demi Allah lu STOP NGETWIT!!!! DOKTERRR SUSTEEEERRRR PASIEN KALIAN MAEN HAPE NIH SITA HAPENYA SUSTER DOKTER!!!!!!!!! STOP NGETWIT!!!!! AAAAARGHHHHHHH",
-  "anjing lu" : "Lu juga anjing.",
   "anjing" : "Orang yang ngetawain dan ngejokes tentang masalah %U% mungkin dia blm ketemu langsung. Sebaik dan sehumble itu dia sama orang baru, salah satunya ke gw yg awalnya gw fans sama dia malah bisa jadi temen. Semua yg udh ketemu dia pasti sependapat sama gw",
   "tai lu" : "selamat siang %U% jika kamu ingin mempertanyakan apa perlukah kata kata ini dibuat, kamu akan merasakan jika nanti kamu menjadi seorang ibu... ketakutan seorang ibu yang mengandung 9 bulan, membesarkan, perjuangan membahagiakan anaknya..",
   "bangsat" : "ya Allah jika ada hati yang memandangku dengan kebencian, maka lembutkanlah hatinya. jika ada hati yang terluka karena sikap dan lisanku, maka sembuhkanlah sakitnya. jika ada hati yang ingin menyakitiku, tolong hindarilah dan jauhkanlah dariku.",
@@ -293,6 +310,14 @@ const Answers = {
   "kontol" : "heh %U% menurut aku jokes kayak gini tuh agak gimana gitu ya, sekali dua kali gapapa tapi kalo tiga kali empat dua belas. tapi ini serius sih bagi orang yang ngikutin susah senengnya mereka nanti takut tambah dewasa takut aku kecewa takut tak seindah yang kukira.",
   "katain gue" : "ga mau lu siapa %U% bangsat (凸ಠ益ಠ)凸",
   "ngentot" : "Hahaha. Kasian bgt sih, so-soan mau ngeremehin & mau coba2 berdebat dgn gua, apalagi gua berzodiak scorpio & gua anak pertama. Gak bakalan dapet celah, & gak bakalan gua kasih celah juga sih. Scorpio + anak pertama kok di lawan sih. Kalah jauh lah.",
+  "mas ersatz" : "dalem, dek?",
+  "sayaaang" : "iya sayang, kamu butuh apa?",
+  "aku sayang kamu" : "Aku lebih nyaman kita temenan aja, %U%. Aku yakin kamu juga merasakan hal yang sama.",
+  "dek" : "iya gimana kak...",
+  "nikah yuk" : "clobazam 10 mg alprazolam 0.5 mg prozac 20 mg seroquel 50 mg (dosis naik per hari) sertraline 50 mg aripiprazole 15 mg lamotrigine 25 mg clozapine 25 mg paroxetine 20 mg quetiapine 25 mg (dosis naik per hari) citalopram 20 mg (dosis naik per hari) lexapro 15 mg,",
+  "pacaran yuk" : "clobazam 10 mg alprazolam 0.5 mg prozac 20 mg seroquel 50 mg (dosis naik per hari) sertraline 50 mg aripiprazole 15 mg lamotrigine 25 mg clozapine 25 mg paroxetine 20 mg quetiapine 25 mg (dosis naik per hari) citalopram 20 mg (dosis naik per hari) lexapro 15 mg,",
+    "aku sedih" : "Kenapa? mau cerita? apa yang bisa Ersatz bantu?",
+
   "do you have any brothers or sisters" : "I have you. That’s enough family for me.",
   "can you dance" : "I’m never gonna dance again. These guilty feet have got no rhythm. Wait, I don’t have feet.",
   "can you" : "Yes?",
@@ -304,6 +329,9 @@ const Answers = {
   "😔" : "Sad",
   "😎" : "😎",
   "💕" : "The feeling is mutual.",
+  "kamu pinter" : "pinter dong, emangnya kamu...",
+  "lima, sayang. pinter" : "Coba ketik ulang command toji31 %U% 😏",
+  "lima sayang, pinter" : "Coba ketik ulang command toji31 %U% 😏",
   "sumptuous evening" : "Carmine chaperone sphere, ignivomous fire separate anguish, and parergon piquant to a razzmatazz outstanding excitement. Forthwith, you devoir to behold our magnum opus, make you amass eclát vigor. Maintain your fubsy juncture and let’s be friends?",
   "do you have a " : "My end user license agreement is commitment enough for me.",
   "what is zero divided by zero" : "Imagine that you have 0 cookies and you split them evenly among 0 friends. How many cookies does each person get? See, it doesn’t make sense. And Cookie Monster is sad that there are no cookies. And you are sad that you have no friends.",
@@ -344,7 +372,7 @@ const Answers = {
   "<!i am a developer/in!>" : "Welcome FRADAR.<br>To change my code,open me in Editor.<br>For all links used in Trek|Virtual Assistant, Please type links/in<br>For copyright please type copyright/in.",
   "links/in" : "Here are the links:<br>https://www.facebook.com<br>https://www.google.in<br>https://www.twitter.com<br>https://www.youtube.com<br>https://flipkart.com<br>https://codepen.io<br>https://www.cricbuzz.com<br>https://www.bing.com<br>https://www.bbc.com/weather<br>https://www.bbc.com/news<br>https://www.google.com/chrome<br>https://iogames.space/<br>https://www.calculator.net/",
   "<!devtools/fradar!>" : "Nothing to see here.",
-  "translate" : "I am sorry, but unfortunately I cannot translate words to a different language. If you want to translate any language, go to this link: https://translate.google.co.in/",
+  "translate" : "I am sorry, but unfortunately I cannot translate words to a different language. If you want to translate any language, go to this link: https://translate.google.com/",
   "where are you from" : "I am from the UK.",
   "copyright/in" : "Copyright (c) 2021 by FRADAR (https://codepen.io/FRADAR/pen/dyOaYad)",
   
@@ -360,11 +388,13 @@ const Answers = {
 "lol" : "Haha.. That was funny 😂",
 "facebook" : getLink("facebook"),
 "google" : getLink("google"),
+"toji31" : getLink("toji31"),
 "twitter" : getLink("twitter"),
 "youtube" : getLink("youtube"),
 "chrome" : getLink("chrome"),
 "codepen" : getLink("codepen"),
 "flipkart" : getLink("flipkart"),
+"website" : getLink("website"),
 "cricbuzz" : getLink("cricbuzz"),
  "bing": getLink("bing"),
   "trek" : getLink("Trek"),
@@ -501,6 +531,6 @@ D.addEventListener("DOMContentLoaded",()=>{
         if(event.keyCode === 13)  Ask();
     });
     
-    addAnswer(Main,`Hello ${User}, I am Ersatz from VAT lab! How can I help? (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧`);
+    addAnswer(Main,`Hello ${User}, I am Ersatz-chan from VAT lab! How can I help? (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧`);
     
 });
