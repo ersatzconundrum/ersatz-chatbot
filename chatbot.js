@@ -32,6 +32,7 @@ const Links = {
  "news" : "https://www.bbc.com/news",
   "chrome" : "https://www.google.com/chrome",
 "game" : "https://iogames.space/",
+  "freudiceberg" : "https://drive.google.com/file/d/1hHK6acZF8BUAIR5QKBqwVH2aKVB_nNnr/view?usp=share_link",
 "calculations" : "https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.calculator.net/&ved=2ahUKEwjZtc_KrfvuAhX3xzgGHYCyC88QFjAEegQIJxAC&usg=AOvVaw2WV3RjBeKCGyY49sfmLlNK&cshid=1613923530345"
 
 };
@@ -388,6 +389,7 @@ const Answers = {
 "mau mati" : "No... I'm here for you %U%!",
 "sorry" : "I am sorry too, %U%... 😔",
 "maaf" : "I am sorry too, %U%... 😔",
+"joonghyuk" : "Bisa jadi. Kita semua gak ada yang tau. Mungkin aja interaksi gue dan lo adalah clue. Bisa jadi feromon Makima wangi rendang adalah clue. Bisa jadi Hawk nitip telur adalah clue. Bisa jadi payung Dokja ketinggalan adalah clue. Be careful who you trust, the devil was once an angel.",
 "makhno" : "TUHAN memberi COBAAN TERSUSAH untuk TENTARA MAKHNO PALING KUAT semoga musuh musuh PENINDAS DAN BORJUIS diberi AZAB oleh TUHAN SUMA REDI SAYA SANG TANGAN KANAN MAKHNO PASUKAN TERKUAT TENTARA HITAM, PENGUASA HULAIPOLE, dan LEGIUM UKRAINA TIMUR melawan PENINDAS BERSAMA NESTOR MAKHNo siap meLAWAN BORJUIS",
 "borjuis" : "BORJUIS merasa bawha Mereka adalah yang paling tinggi KARENA DUIT paADAHAL: NESTOR MAKHNO jelas petinggi PASUKAN HITAM ukraina BORJUIS hanya manusia bertopi tinggi PENYEDOT alat kelamin DENGAN UANG semoga tuhan MEMBERKATI NESTOR maKHNoO,,,,,,z",
 "hulapole" : "Kap 10 atau KAP HULAPOLE asli ILMU MAKHNO yg tau artinya sudah dapat di pastikan yg berbunyi: KAP PAKA RABUKA KAMYAK PIKA WAKI PATA PIKA PUHA KAKAMINA KANA MUNAKA LAKA PAKURU KARA KAKARIL KARIPIKA BI JIN HAKI MUSAKA SANU KAPU LUKI LUKA KAKAMA KAPAKAL KAPIKUR KAPI DAN SETERUSNYA",
@@ -406,6 +408,7 @@ const Answers = {
 "facebook" : getLink("facebook"),
 "google" : getLink("google"),
 "toji31" : getLink("toji31"),
+"freudiceberg" : getLink("freudiceberg"),
 "twitter" : getLink("twitter"),
 "youtube" : getLink("youtube"),
 "chrome" : getLink("chrome"),
