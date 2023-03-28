@@ -32,7 +32,7 @@ const Links = {
  "news" : "https://www.bbc.com/news",
   "chrome" : "https://www.google.com/chrome",
 "game" : "https://iogames.space/",
-  "freudiceberg" : "https://twitter.com/tbyxvs320722/status/1640631315518353409?s=20",
+  "freudiceberg" : "https://twitter.com/tbyxvs320722/status/1640633040060960768?s=20",
 "calculations" : "https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.calculator.net/&ved=2ahUKEwjZtc_KrfvuAhX3xzgGHYCyC88QFjAEegQIJxAC&usg=AOvVaw2WV3RjBeKCGyY49sfmLlNK&cshid=1613923530345"
 
 };
