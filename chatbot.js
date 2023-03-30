@@ -20,6 +20,7 @@ const WhatCanIDo = ThingsICanDo => Random(ThingsICanDo);
 const Links = {
   "facebook" : "https://www.facebook.com",
   "toji31" : "https://www.meme-arsenal.com/memes/88df19dffcb6f901a044058c5c8da6bb.jpg",
+  "turingcat" : "https://drive.google.com/file/d/1WPhA5z7UBufty_lhLK6UktdDuE3-2VyW/view?usp=sharing",
   "website" : "https://ersatzconundrum.tumblr.com",
   "google" : "https://www.google.in",
   "twitter" : "https://www.twitter.com",
@@ -408,6 +409,7 @@ const Answers = {
 "facebook" : getLink("facebook"),
 "google" : getLink("google"),
 "toji31" : getLink("toji31"),
+ "turingcat" : getLink("turingcat"),
 "freudiceberg" : getLink("freudiceberg"),
 "twitter" : getLink("twitter"),
 "youtube" : getLink("youtube"),
